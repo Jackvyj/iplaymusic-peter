@@ -1,9 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<<<<<<< HEAD
-=======
+
 # iplaymusic
->>>>>>> 254a0ceafd60e204b167a459ae457268a82ee521
 ## Getting Started
 
 First, run the development server:
