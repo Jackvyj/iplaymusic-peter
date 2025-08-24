@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function FeaturedCard({ album }) {
+	console.log(album)
 	return (
 		<Link href={`/album/${album.id}`}>
 			<article className={`relative h-[425px] rounded-2xl drop-shadow-md`}>

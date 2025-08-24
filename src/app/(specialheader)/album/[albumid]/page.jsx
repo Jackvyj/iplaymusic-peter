@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
 export default async function AlbumDetailPage({ params }) {
 	const { albumId } = await params;
 	const cookieStore = await cookies();
-
+	
 	const access_token = cookieStore.get("ipm_access_token");
 
 	const response = await fetch("https://api.spotify.com/v1/albums/" + albumId, {
@@ -44,7 +44,7 @@ export default async function AlbumDetailPage({ params }) {
 			<main>
 				<div className="grid grid-rows-2 h-[20rem]">
 					<Image
-						priority
+						unoptimized
 						src={data.images[0].url}
 						width={data.images[0].width}
 						height={data.images[0].height}

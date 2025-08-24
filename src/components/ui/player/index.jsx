@@ -125,7 +125,7 @@ export default function Player() {
 			<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
 			<div id="embed-iframe" ref={controlRef}></div>
 			<section className="text-white bg-linear-to-br from-pink to-orange w-[90%] h-24 z-100 fixed bottom-20 mx-[5%] rounded-md p-4 grid grid-cols-6">
-				<Image src={albumCover.url} width={albumCover.width} height={albumCover.height} alt="" className="w-12 h-auto col-span-1" />
+				<Image unoptimized src={albumCover.url} width={albumCover.width} height={albumCover.height} alt="" className="w-12 h-auto col-span-1" />
 				<div className="col-span-5">
 					<button onClick={() => playerState.controller.togglePlay()}>
 						{playerState.isPaused ? <FaPlay /> : <FaPause />}
