@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src:
+    local("Poppins"),
+    url("/fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+
+:root {}
+
+@theme inline {
+  --color-darkpink: #EE0979;
+  --color-pink: #FF1168;
+  --color-orange: #FF6A00;
+  --color-spotifygreen: #1DB954;
+
+  --shadow-top: 0 -5px 12px rgba(0, 0, 0, 0.20);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.albumListHeight {
+  height: calc(100dvh - 320px - 64px);
+}
+
+iframe {
+  width: 0px;
+  height: 0px;
+}

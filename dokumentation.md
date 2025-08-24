@@ -1,5 +1,5 @@
 # Dokumentation for iPlayMusic
-Brian Emilius, WU12
+Peter W L, WU12
 
 <img src="./public/file.svg">
 

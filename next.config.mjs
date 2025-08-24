@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
+		domains: ['*.scdn.co'],
 		remotePatterns: [new URL('https://i.scdn.co/image/**'), new URL("https://image-cdn-ak.spotifycdn.com/image/**"), new URL("https://mosaic.scdn.co/**")],
 		remotePatterns: [
 			new URL('https://i.scdn.co/image/**'),
